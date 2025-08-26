@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olida BEAUTY</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Sans-Serif;
+      font-weight: 900;
+      background: url('pictures1.jpg')no-repeat center 
+     center fixed ;
+     background-size:cover;
+     color:#333;
+    }
+    main section,header,footer{
+      background: rgba(800,800,800,0.5);
+      border-radius:12px;
+      padding: 20px;
+      margin: 20pxauto;
+      max-width:1000px;
+    }
+    header {
+      background: linear-gradient(90deg, #f7d9e3, #ffd1a4);
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #a0527c;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      background: #fff3f7;
+      color: #333;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #ffd1a4;
+      color: #000;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+     
+    }
+
+    section {
+      margin: 40px 0;
+    }
+
+    h2 {
+      color: #a0527c;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff 0.5;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      background: #f7d9e3;
+      padding: 10px 18px;
+      margin: 5px 3px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ffd1a4;
+    }
+
+    footer {
+      background: #a0527c;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffd1a4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .service-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.service-btn:hover {
+  background: #ffd1a4;
+  transform: scale(1.05);
+}
+
+.service-btn img {
+  width: 100%;
+  height: 150px; /* për placeholder */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #eee; /* vend për foto */
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Olida <b>BEAUTY</b></h1>
+    <p>✨ Zbulo versionin më të bukur të vetes ✨</p>
+    <p>Çdo ditë 07:00 – 19:00</p>
+    <nav>
+      <a href="#home">Kryefaqja</a>
+      <a href="#about">Rreth Nesh</a>
+      <a href="#services">Shërbimet</a>
+      <a href="#booking">Rezervime</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Kryefaqja -->
+    <section id="home">
+      <h2>Kryefaqja</h2>
+      <p>Makeup • Flokët • Qerpikë • Thonj • Depilim — shërbime të personalizuara me prekje luksi. Rezervo online në pak sekonda.</p>
+      <a href="#booking" class="btn">Rezervo tani</a>
+      <a href="#services" class="btn">Shiko shërbimet</a>
+    </section>
+
+    <!-- Rreth Nesh -->
+    <section id="about">
+      <h2>Rreth Nesh</h2>
+      <div class="card">
+        <p>💖 Kujdes, elegancë & detaj</p>
+        <p>Tek <b>Olida BEAUTY</b> besojmë se bukuria është art. Ekipi ynë ofron shërbime të personalizuara për çdo klient, me produkte cilësore dhe standarde të larta higjiene. Qëllimi ynë është të largoheni gjithmonë të buzëqeshur.</p>
+        <ul>
+          <li>Staf i kujdesshëm & profesional</li>
+          <li>Rezervime fleksibël, konfirmim i menjëhershëm</li>
+          <li>Ambiente të pastra dhe komode</li>
+          <li>Produkte premium për flokë, lëkurë dhe thonj</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Shërbimet -->
+<section id="services">
+  <h2>Shërbimet</h2>
+  <div class="services">
+    <button class="service-btn">
+      <img src="https://via.placeholder.com/300x150" alt="Makeup">
+      💄 Makeup
+    </button>
+
+    <button class="service-btn">
+      <img src="https://via.placeholder.com/300x150" alt="Flokët">
+      💇‍♀️ Flokët
+    </button>
+
+    <button class="service-btn">
+      <img src="https://via.placeholder.com/300x150" alt="Qerpikë">
+      👁️ Qerpikë
+    </button>
+
+    <button class="service-btn">
+      <img src="https://via.placeholder.com/300x150" alt="Thonj">
+      💅 Thonj
+    </button>
+
+    <button class="service-btn">
+      <img src="https://via.placeholder.com/300x150" alt="Depilim">
+      ✨ Depilim
+    </button>
+  </div>
+</section>
+
+
+
+    <!-- Rezervime -->
+    <section id="booking">
+      <h2>Rezervime Online</h2>
+      <div class="card">
+        <form>
+          <label>Emri & mbiemri *</label><br>
+          <input type="text" required><br><br>
+
+          <label>Telefoni (WhatsApp) *</label><br>
+          <input type="tel" required><br><br>
+
+          <label>Shërbimi *</label><br>
+          <select required>
+            <option>Makeup</option>
+            <option>Flokët</option>
+            <option>Qerpikë</option>
+            <option>Thonj</option>
+            <option>Depilim</option>
+          </select><br><br>
+
+          <label>Data *</label><br>
+          <input type="date" required><br><br>
+
+          <label>Ora *</label><br>
+          <input type="time" required><br><br>
+
+          <label>Shënime (opsionale)</label><br>
+          <textarea rows="3"></textarea><br><br>
+
+          <button type="submit" class="btn">Konfirmo rezervimin</button>
+          <a href="https://wa.me/355676463829" target="_blank" class="btn">Rezervo në WhatsApp</a>
+        </form>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact">
+      <h2>Kontakti</h2>
+      <div class="card">
+        <h3>Email</h3>
+        <p>✉️ <a href="mailto:olidabeauty@gmail.com">Olidabeauty@gmail.com</a></p>
+
+        <h3>Telefona</h3>
+        <p>📞<a href="tel:+355676463829">+355 67 646 3829</a> | 📞<a href="tel:+355683759422">+355 68 375 9422</a></p>
+        <p><a href="https://wa.me/355676463829">💬 WhatsApp 067 646 3829</a></p>
+        <p><a href="https://wa.me/355683759422">💬 WhatsApp 068 375 9422</a></p>
+
+        <h3>Adresa</h3>
+        <p><a href="https://maps.app.goo.gl/Wuwfj5qHcPsLbYjp6" target="_blank">📍 Hape adresën në Google Maps</a></p>
+
+        <h3>Instagram</h3>
+        <p><a href="https://instagram.com/Olida__beauty" target="_blank">@Olida__beauty</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Olida <b>BEAUTY</b> © Të gjitha të drejtat e rezervuara.</p>
+    <a href="#home">⬆️ Kthehu lart</a>
+  </footer>
+
+</body>
+</html>
